@@ -1,0 +1,98 @@
+
+/*:root {
+    --bg-web :url();
+    --bg-mobile :url();
+}*/
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('https://stage-admin.procialize.live/baseapp/dist/fonts/icomoon.eot?hvuu4p');
+  src:  url('https://stage-admin.procialize.live/baseapp/dist/fonts/icomoon.eot?hvuu4p#iefix') format('embedded-opentype'),
+    url('https://stage-admin.procialize.live/baseapp/dist/fonts/icomoon.ttf?hvuu4p') format('truetype'),
+    url('https://stage-admin.procialize.live/baseapp/dist/fonts/icomoon.woff?hvuu4p') format('woff'),
+    url('https://stage-admin.procialize.live/baseapp/dist/fonts/icomoon.svg?hvuu4p#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/*@import url(../plugins/vendor_components/font-awesome/css/font-awesome.css);*/
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Document:before {
+  content: "\e902";
+}
+.icon-Emergency-Contact:before {
+  content: "\e90e";
+}
+.icon-Engagement:before {
+  content: "\e90f";
+}
+.icon-EULA:before {
+  content: "\e910";
+}
+.icon-Gallery:before {
+  content: "\e911";
+}
+.icon-Leaderboard:before {
+  content: "\e912";
+}
+.icon-Privacy-Policy:before {
+  content: "\e913";
+}
+.icon-Survey:before {
+  content: "\e914";
+}
+.icon-News-Feed:before {
+  content: "\e903";
+}
+.icon-Attendees:before {
+  content: "\e906";
+}
+.icon-Speakers:before {
+  content: "\e908";
+}
+.icon-Agenda:before {
+  content: "\e90b";
+}
+.icon-Change-Image:before {
+  content: "\e907";
+}
+.icon-Logout:before {
+  content: "\e90c";
+}
+.icon-Notification:before {
+  content: "\e90d";
+}
+.icon-Events:before {
+  content: "\e904";
+}
+.icon-QA:before {
+  content: "\e909";
+}
+.icon-Quiz:before {
+  content: "\e90a";
+}
+.icon-Live-Poll:before {
+  content: "\e905";
+}
+.icon-Email:before {
+  content: "\e901";
+}
+.icon-SMS:before {
+  content: "\e900";
+}

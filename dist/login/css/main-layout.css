@@ -1,0 +1,298 @@
+body {
+    /* background: #e5f2ff 0% 0% no-repeat padding-box; */
+    color: #212529;
+    font-family: "DINPro-Regular";
+}
+
+.banner-container {
+    padding: 30px;
+    height: 100vh;
+}
+
+.h50 {
+    height: 50px;
+}
+
+.bg-grey {
+    background: #f4f4f4 0% 0% no-repeat padding-box;
+}
+
+.h-60 {
+    height: 60px;
+}
+
+.icon-height{
+    height: 20px;
+}
+
+.align-btn-img{
+    /* height: 45px;
+    position: relative;
+  
+    bottom: 47px;
+    left: 2px; */
+    height: 45px;
+    position: relative;
+    /* top: -46px; */
+    bottom: 5px;
+    left: -10px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.custom-btn{
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0.2em;
+    outline: none;
+    border: none;
+    vertical-align: middle !important;
+}
+
+.black-href{
+    /* color: #212529;
+    opacity: 1; */
+    color: rgba(33,37,41,1);
+    font-weight: bold;
+
+}
+
+.form-container {
+    background: #ffffff 0% 0% no-repeat padding-box;
+}
+
+.grey-text{
+    color: #6c757d;
+}
+.tea-main-layout .card {
+    width: 58rem;
+    /* height: 50rem; */
+    position: relative;
+    /* height: 1268px; */
+    top: 50px;
+    box-shadow: 0px 8px 10px #007bff;
+    border-radius: 10px;
+    overflow: hidden;
+
+    /* margin-bottom: 35px !important; */
+    /* transition: all ease-in-out 1s; */
+}
+
+.card-body {
+    padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+}
+.f-20{
+    font-size: 20px;
+}
+input[type="text"] {
+    border :1px solid #6c757d;
+}
+.grey-border {
+    border :1px solid #6c757d;
+}
+
+
+/* #registration-form{
+    display: none;
+}
+#otp-form{
+    display: none;
+}
+
+#confirm-password-form{
+    display: none;
+}
+#home{
+    display: block;;
+}
+#forgot-password{
+    display: block;
+}
+
+#sign-in-form{
+    display: none;
+} */
+.avator-design{
+    background: #e6e6e6;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+.mt-button{
+    margin-top: 2.5rem
+}
+
+.footer {
+    padding: 10px;
+    background: #f1f1f1 0% 0% no-repeat padding-box;
+    box-shadow: 0px 8px 10px #00000029;
+}
+
+.form-header {
+    font-size: 25px;
+}
+
+.banner-text {
+    font-size: 28px;
+   color:rgba(33,37,41,1);
+    /* opacity: 1; */
+    line-height: 1;
+    font-weight: 500;
+}
+
+.bold-text {
+    font-family: DINPRO-medium;
+}
+
+.email-text {
+    font-size: 20px;
+}
+
+.small-font {
+    font-size: 16px;
+}
+
+.customized-input {
+    /* // width:15%;
+    // border:1px solid #007bff; */
+
+    height: 50px;
+    width: 25%;
+    font-size: 30px;
+    text-align: center;
+    /* border: 1px solid #007bff; */
+}
+input[type="text"]::-webkit-inner-spin-button,
+input[type="text"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:focus  {
+    /* box-shadow: 0 0 1px #2196f3; */
+    outline: none;
+    /* border-color: #007bff; */
+  }
+
+.seconds-box{
+    background-color: #E5F2FF;
+    color: #007bff;
+    border: 1px solid #007bff;
+    /* padding: 16px; */
+    border-radius: 0.2em;
+    position: relative;
+    /* // width: 100%;
+    // vertical-align: middle; */
+     height: 50px;
+}
+
+.resend-button{
+    background-color: #E5F2FF;
+    color: #007bff;
+    border: 1px solid #007bff;
+    /* padding: 16px; */
+    border-radius: 0.2em;
+    position: relative;
+    /* // width: 100%;
+    // vertical-align: middle; */
+     height: 50px;
+}
+
+.align-box-text{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.timer-header{
+    font-size: calc((6vw+2vh)/3);
+}
+
+.timer-label{
+    font-size: calc((6vw+2vh)/6);
+}
+
+.padding-5{
+    padding: 3rem !important;
+}
+
+.padding-4{
+    padding: 1.5rem!important;
+}
+
+
+
+@media (max-width: 1100px) {
+    .card {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 570px) and (max-width:768px){
+    .padding-5{
+        padding: 0.5rem !important;
+    }
+}
+@media (max-width: 569px) {
+   
+
+    .email-header {
+        font-size: 28px;
+    }
+
+    .email-text {
+        font-size: 16px;
+    }
+
+    .small-font {
+        font-size: 12px;
+    }
+
+    .timer-header{
+        font-size: 26px;
+    }
+    .timer-label{
+        font-size: 14px;
+    }
+
+    .h-60{
+        height: 40px;
+    }
+
+    .padding-5{
+        padding: 0.5rem !important;
+    }
+
+    .banner-text{
+        font-size: 14px;
+    }
+
+    .padding-4{
+        padding: 0.4rem !important;
+    }
+
+    .f-20 {
+        font-size: 16px;
+    }
+
+    .form-container {
+        background: #ffffff 0% 0% no-repeat padding-box;
+        padding: 15px;
+    }
+
+    .form-header {
+        font-size: 20px;
+    }
+
+    .banner-container{
+        padding: 10px;
+    }
+
+    .black-href {
+        font-size: small;
+    }
+}
